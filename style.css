@@ -1,0 +1,78 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(black,rgb(5, 120, 235));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loginform{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius:8px ;
+    gap: 30px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    height: fit-content;
+}
+
+#social_media img{
+    width: 35px;
+}
+
+
+
+#name{
+    display: flex;
+    align-items: center;
+    cursor: text;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    
+}
+
+
+#email{
+    display: flex;
+    align-items: center;
+    cursor: text;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#password{
+    display: flex;
+    align-items: center;
+   
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    
+    
+}
+
+
+.input-field input{
+   border:none;
+    padding: 5px;
+    
+}
+
+a{
+    text-decoration: none;
+    color:red;
+    
+}

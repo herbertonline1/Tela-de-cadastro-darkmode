@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="cadastro.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main id="container">
+        <form action="" id="loginform">
+            <div id="form_header">
+                <h1>Cadastro</h1>
+
+
+            </div>
+
+
+            <!--Input Nome-->
+
+            <div id="inputs1">
+                <div class="input-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fas fa-user-circle" style='color:blue' id="iconome"></i>
+                            <input type="text" id="name" name="name">
+
+                        </div>
+                    </label>
+                </div>
+            </div>    
+                <!--Input Sobrenome-->
+
+                <div id="inputs">
+                    <div class="input-box">
+                        <label for="name">
+                            Sobrenome
+                            <div class="input-field">
+                                <i class="fas fa-user-friends" style='color:blue' id="icosobrenome"></i>
+                                <input type="text" id="sobrename" name="name">
+
+                            </div>
+                        </label>
+                    </div>
+                </div>
+
+
+                    <!--Endereço-->
+                    <div id="inputs">
+                        <div class="input-box">
+                            <label for="name">
+                                Endereço
+                                <div class="input-field">
+                                    <i class="fas fa-house-user" style='color:blue' id="icoendereco"></i>
+                                    <input type="text" id="name" name="name">
+
+                                </div>
+                            </label>
+                        </div>
+                    </div>    
+                        <!--Input Telefone-->
+                        <div id="inputs">
+                            <div class="input-box">
+                                <label for="name">
+                                    Numero Telefone
+                                    <div class="input-field">
+                                        <i class="fas fa-phone-square-alt" style='color:blue' id="icotelefone"></i>
+                                        <input type="text" id="name" name="name">
+
+                                    </div>
+                                </label>
+                            </div>
+                        </div>    
+                            <!--Input Email-->
+
+                            <div class="input-box">
+                                <label for="email">
+                                    E-mail
+                                    <div class="input-field">
+                                        <i class="fa-solid fa-envelope" style='color:blue' id="icoemail"></i>
+                                        <input type="text" id="email" name="email">
+
+                                    </div>
+                                </label>
+                            </div>
+                               
+                             <!--Input Login-->
+
+                            <div id="inputs">
+                                <div class="input-box">
+                                    <label for="name">
+                                        Login
+                                        <div class="input-field">
+                                            <i class="fas fa-user-friends" style='color:blue' id="icologin"></i>
+                                            <input type="text" id="name" name="name">
+
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>    
+                                 <!--Input Senha--> 
+
+                                <div class="input-box">
+                                    <label for="password">
+                                        Senha
+                                        <div class="input-field">
+                                            <i class="fas fa-key" style='color:blue' id="icosenha"></i></i>
+                                            <input type="password" id="password" name="password">
+
+                               
+                                        </div>
+                                    </label>
+
+
+                                    <div id="forgot_password">
+                                        <a href="index.html">
+                                            Ja possui cadastro?
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <input type="button" id="login_button" value=" Cadastrar" onclick="cadastrar()">
+
+
+        </form>
+    </main>
+
+
+</body>
+
+</html>
